@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define the repository URL and the local directory
-REPO_URL="https://github.com/bobbydmartino/.dotfiles"
-SSH_URL="git@github.com:bobbydmartino/.dotfiles.git"
+REPO_URL="https://github.com/chash-kit/.dotfiles"
+SSH_URL="git@github.com:chash-kit/.dotfiles.git"
 LOCAL_DIR="$HOME/.dotfiles"
 export DEBIAN_FRONTEND=noninteractive
 # Check if the first argument is '--update'
@@ -46,9 +46,9 @@ fi
 
 # check if ssh is available, else clone with https
 if ssh -T git@github.com; then
-  git clone git@github.com:bobbydmartino/.dotfiles.git
+  git clone git@github.com:chash-kit/.dotfiles.git
 else
-  git clone https://github.com/bobbydmartino/.dotfiles.git
+  git clone https://github.com/chash-kit/.dotfiles.git
 fi
 
 # prompt user what system they are on: mac|unix|docker|unixnosudo
