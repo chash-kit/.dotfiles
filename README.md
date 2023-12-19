@@ -1,5 +1,6 @@
 # My Dotfiles
 ###### (This readme was written by ChatGPT, so some of the links may have been hallucinated)
+###### This is almost entirely cloned from bobbydmartino: git@github.com:bobbydmartino/.dotfiles.git
 
 My dotfiles are a collection of configuration files that I use to personalize my development environment.
 
